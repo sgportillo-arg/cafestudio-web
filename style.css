@@ -40,3 +40,16 @@ nav{display:flex;align-items:center;gap:22px}nav a{text-decoration:none;font-siz
 .cafeclose{text-align:center;margin:36px auto 0;max-width:900px}
 .clogo{display:block;max-width:140px;margin-top:12px;background:#f7f2ea;padding:10px;border-radius:6px}
 h1.light{color:#fff}
+.logos{list-style:none;padding:0;margin:28px auto 36px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:980px}
+.logos li{background:#f7f2ea;border-radius:8px;height:120px;display:flex;align-items:center;justify-content:center;padding:18px}
+.logos img{max-width:100%;max-height:72px;object-fit:contain}
+.lname{font-family:"Cormorant Garamond",serif;font-size:1.5rem;color:#111}
+.ltile{background:#f7f2ea;border-radius:8px;height:110px;display:flex;align-items:center;justify-content:center;padding:14px;margin-bottom:14px;max-width:260px}
+.ltile img{max-width:100%;max-height:78px;object-fit:contain}
+.trainings li.wide{grid-column:1/-1}
+.tag{display:block;font-family:Inter,sans-serif;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#ff8a78;margin-bottom:4px}
+.ba{display:flex;gap:16px;flex-wrap:wrap}.ba figure{margin:0}.ba .ltile{width:200px}.ba figcaption{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:#bbb;margin:-6px 0 12px}
+.ilgal{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px}.ilgal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px}
+.igposts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:start;margin:24px 0}
+.igposts .instagram-media{min-width:0!important;width:100%!important;margin:0!important}
+@media(max-width:820px){.logos{grid-template-columns:repeat(2,1fr)}.ilgal{grid-template-columns:repeat(2,1fr)}.igposts{grid-template-columns:1fr}}

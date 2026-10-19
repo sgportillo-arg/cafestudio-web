@@ -1,1 +1,1 @@
-{"buildCommand":"node build.js","outputDirectory":"dist","framework":null,"installCommand":"","trailingSlash":true}
+{"buildCommand":"node build.js","outputDirectory":"dist","framework":null,"installCommand":"","trailingSlash":true,"redirects":[{"source":"/diagnostico-de-expansion","destination":"/analisis-de-expansion-de-marca/","statusCode":301},{"source":"/diagnostico-de-expansion/","destination":"/analisis-de-expansion-de-marca/","statusCode":301}]}
