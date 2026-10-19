@@ -35,3 +35,8 @@ nav{display:flex;align-items:center;gap:22px}nav a{text-decoration:none;font-siz
 @media(max-width:480px){.cafe,.steps{grid-template-columns:1fr}.servlist li{grid-template-columns:44px 1fr}}
 .vm{font-size:clamp(1.5rem,4vw,2.2rem);line-height:1.25;margin:0}.vm.light{color:#f2f2f2;max-width:900px}.servlist h3 a,.servlist h2 a{text-decoration:none}
 .person .ph{display:block;width:100%;max-width:420px;aspect-ratio:4/5;height:auto;object-fit:cover;object-position:50% 20%;margin-bottom:14px}
+.person .role{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#777;margin:-.2em 0 .8em}
+.ctas.cc{justify-content:center}
+.cafeclose{text-align:center;margin:36px auto 0;max-width:900px}
+.clogo{display:block;max-width:140px;margin-top:12px;background:#f7f2ea;padding:10px;border-radius:6px}
+h1.light{color:#fff}
